@@ -36,6 +36,8 @@ List interface extends the collection interface.
 ArrayDeque and PriorityQueue are the most popular implementations. Deque is a double-ended queue, special type of queue where values can be entered from two
 ends.  PriorityQueue is a special type of queue where each item gets a priority, i.e. a queue that manages the processes in your CPU.
 
+Set interface - Represents a collection that contains no duplicates, great for containing unique values.
+
 
 
 
