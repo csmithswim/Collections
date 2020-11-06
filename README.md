@@ -14,7 +14,8 @@ It removes objects, searches for objects, etc.
 
 List interface - works with an ordered collection and access objects with its index.
 
-Queue interface - similar to a printer at an office.
+Queue interface - similar to a printer at an office. Extends the collection interface, every queue is a collection.
+We use queues when we want to process jobs based on the order we receive them in.
 
 ArrayList class - uses an array to store objects.
 
@@ -28,9 +29,13 @@ Iterator - an object we use to iterate over an iterable.
 
 List interface represents an order collection also called a sequence. So with lists we can access objects by their index.
 
-In collections we do not care about their index, just adding/removing them from the collection.
+In collections, we do not care about their index, just adding/removing them from the collection.
 
 List interface extends the collection interface.
+
+ArrayDeque and PriorityQueue are the most popular implementations. Deque is a double-ended queue, special type of queue where values can be entered from two
+ends.  PriorityQueue is a special type of queue where each item gets a priority, i.e. a queue that manages the processes in your CPU.
+
 
 
 
