@@ -26,8 +26,12 @@ Iterator - an object we use to iterate over an iterable.
 
 <E> is common convention for declaring a common syntax for declaring classes with a collection semantic because the collection can have multiple elements. 
 
-List interface represents an order collection also called a sequence. 
-So it lists we can access objects.
+List interface represents an order collection also called a sequence. So with lists we can access objects by their index.
+
+In collections we do not care about their index, just adding/removing them from the collection.
+
+List interface extends the collection interface.
+
 
 
 
