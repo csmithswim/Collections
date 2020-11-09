@@ -38,14 +38,11 @@ ends.  PriorityQueue is a special type of queue where each item gets a priority,
 
 Set interface - Represents a collection that contains no duplicates, great for containing unique values.
 
-Hash table -  special data structure that differs how it stores data compared to list, allows us to quickly look up data.
+Hash table -  special data structure that differs how it stores data compared to list, allows us to 
+quickly look up data.
 
 Technically there is no comparison involved with hash tables but just small computation steps.
 
-In the ArrayList chapter, you learned that Arrays store items as an ordered collection, and you have to access them with an index number (int type). A HashMap however, store items in "key/value" pairs, and you can access them by an index of another type (e.g. a String).
-
-One object is used as a key (index) to another object (value). It can store different types: String keys and Integer values, or the same type, like: String keys and String values:
-
-
+Map cannot be used in a for each loop
 
 
